@@ -1,0 +1,80 @@
+
+.third-page {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 1520px;
+    background-repeat: no-repeat;
+  }
+  
+  .third-page h2 {
+    white-space: 7px;
+    color: white;
+    margin-top: 50px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 3px 2px rgb(22, 92, 119);
+  }
+  
+  .third-page h2 span {
+    color: white;
+  }
+  
+  .goals .divv {
+    background-color: white;
+    width: 200px;
+    height: 230px;
+    color: black;
+    margin: 80px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 80px;
+    border: 3px solid white;
+  }
+  
+  .dotted-hr {
+    border: 1px dotted white;
+  }
+  
+  .goals .divv:hover {
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(69, 116, 137);
+    transition: 1s ease-in-out;
+    box-shadow: 1px 1px 11px 1px rgb(95, 95, 95);
+  }
+  
+  .goals h3 {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    color: rgb(21, 91, 118);
+  }
+  
+  .goals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  audio {
+    width: 200px;
+  }
+  
+  .fa-laptop:hover {
+    color: rgb(21, 91, 118);
+    transition: 0.8s;
+  }
+  
+  .goals p {
+    color: #ddb726;
+  }
+  

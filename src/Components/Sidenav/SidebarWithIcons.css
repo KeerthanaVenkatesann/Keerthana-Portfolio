@@ -1,0 +1,80 @@
+
+  
+  .card {
+   background-color: black;
+    height: 100vh;
+  }
+  
+  .sidnav {
+    position: fixed !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .sidnav span {
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 32px;
+    margin: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidnav span:hover {
+    border: 2px solid rgb(69, 116, 137);
+    transition: 0.5s;
+    width: 60px;
+    color: rgb(21, 91, 118);
+    box-shadow: 1px 1px 11px 1px rgb(29, 28, 28);
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .bg-text {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(22, 92, 119);
+  }
+  
+  .first-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .fa-regular,
+  .fa-brands {
+    color: white;
+    font-size: larger;
+    margin: 15px;
+  }
+  
+  .fa-regular:hover {
+    color: rgb(21, 91, 118);
+    transition: 0.8s;
+  }
+  
+  .fa-brands:hover {
+    color: rgb(21, 91, 118);
+    transition: 0.8s;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  

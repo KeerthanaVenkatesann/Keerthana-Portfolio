@@ -1,0 +1,56 @@
+.second-page {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  
+  .about {
+    width: 500px;
+  }
+  .about-me span {
+    color: #ddb726;
+  }
+  
+  .about-me h1 {
+    color: rgb(21, 91, 118);
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 13% 15% 15% 75% / 25% 47% 27% 32%;
+  }
+  
+  .about-me {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    width: 33.3%;
+    line-height: 30px;
+    text-align: start;
+    padding: 50px;
+    padding-top: 20px;
+  }
+  
+  .image1 {
+    width: 33.3%;
+    padding: 80px;
+  }
+  
+  .my-image {
+    border: 2px solid white;
+    padding: 18px;
+    border-radius: 63% 35% 35% 75% / 25% 87% 27% 32%;
+  }
+  
+  .my-image:hover {
+    border: 2px solid rgb(102, 188, 222);
+    transition: 2s;
+    cursor: pointer;
+    box-shadow: 1px 1px 11px 1px rgb(77, 76, 76);
+  }
+  
